@@ -1,57 +1,48 @@
-# 📈 Análise de Perfil do Investidor (API) e Mercado Financeiro
-> Estudo técnico sobre a classificação de perfis, vieses cognitivos e conformidade regulatória (Suitability) no cenário brasileiro.
+# 📈 Suitability & Finanças Comportamentais: Análise CVM vs. ANBIMA
+> Projeto de análise técnica sobre o perfil do investidor, conformidade regulatória e impactos psicográficos no mercado financeiro.
 
-![Status](https://shields.io) ![Tema](https://shields.io)
-
----
-## 📑 Conteúdo
-1. [Sobre](#-sobre)
-2. [Miniguia de Consulta](#-miniguia)
-3. [Análise Crítica](./insights/analise-critica.md)
-4. [Glossário Técnico](./insights/glossario.md)
-5. [Testes de Prompts e Flashcards](#-testes-de-prompts)
-6. [Fontes Analisadas](#-fontes)
+![IA](https://shields.io) ![CVM](https://shields.io) ![Status](https://shields.io)
 
 ---
 
-## 🧐 Sobre
-Este projeto analisa como a identificação correta da tolerância ao risco e a educação financeira são fundamentais para o sucesso no mercado financeiro. O estudo foca na transição de normas para incluir **vieses comportamentais** (como o de confirmação) e a diferenciação técnica entre ativos de **Renda Fixa** e **Renda Variável**.
+## 📑 Conteúdo do Repositório
+Para facilitar a navegação, este estudo foi dividido em seções específicas:
 
-## 🚀 Miniguia
-Como utilizar este repositório para estudos:
-1. **Fundamentos:** Comece pelo [Glossário](#-glossário-técnico) para alinhar os termos da CVM.
-2. **Perfis:** Estude as categorias (Conservador, Moderado e Arrojado) na seção de fontes.
-3. **Revisão:** Utilize os [Flashcards](#-testes-de-prompts) para testar seu conhecimento sobre conceitos avançados como a Teoria do Prospecto.
-
-## 📚 Glossário Técnico
-
-| Termo Técnico | Definição Curta | Fonte / Página |
-| :--- | :--- | :--- |
-| **API** | Questionário para classificar o investidor conforme risco e conhecimento. | "18212-Texto...", p. 5 |
-| **Suitability** | Dever de verificar a adequação de produtos ao perfil do cliente. | "questionario...", p. 6 |
-| **Viés de Confirmação** | Tendência de buscar informações que corroborem crenças prévias. | "18212-Texto...", p. 9 |
-| **FGC** | Entidade que protege investimentos até R$ 250 mil em caso de falência. | "ANALISE DO...", p. 13 |
-| **Liquidez** | Facilidade de converter um ativo em dinheiro rápido e sem perda. | "perfil de...", p. 2 |
-
-## 🧪 Testes de Prompts
-Exemplos de prompts utilizados no **NotebookLM** para extrair insights profundos:
-
-*   **Prompt:** "Identifique os 10 termos técnicos mais importantes..."
-    *   *Resultado:* Gerou o glossário estruturado acima com foco normativo.
-*   **Prompt:** "Crie 10 perguntas de flashcards, evite perguntas óbvias."
-    *   *Resultado:* Gerou correlações entre a Teoria do Prospecto e o comportamento do investidor.
-
-### 🗂️ Exemplo de Flashcard (Estudo de Caso)
-**Pergunta:** Como a instituição financeira deve proceder caso um cliente se recuse a responder o API?
-**Resposta:** O cliente deve ser classificado na categoria de menor propensão ao risco e as recomendações devem ser restritas a essa categoria.
-
-## 📚 Fontes
-- `18212-Texto do artigo-78456-86898-10-20260331.pdf`: Foco em vieses e mudança normativa.
-- `ANALISE DO PERFIL DO INVESTIDOR - TIPOS DE INVESTIMENTOS.pdf`: Detalhamento de ativos e perfis.
-- `questionario investidor CVM.pdf`: Regras de Suitability.
+1.  [**Glossário Técnico**](./insights/glossario.md): Definições essenciais (API, Suitability, FGC).
+2.  [**Análise Crítica e Comparativa**](./insights/analise-critica.md): O "ponto cego" do suitability e as diferenças entre CVM e ANBIMA.
+3.  [**Flashcards de Estudo**](./prompts/flashcards.md): 10 perguntas avançadas sobre comportamento e alocação de ativos.
 
 ---
+
+## 🧐 Sobre o Projeto
+Este repositório explora o processo de **Análise de Perfil do Investidor (API)** sob a ótica da **Resolução CVM nº 30/2021**. O diferencial desta pesquisa é o cruzamento de dados regulatórios com finanças comportamentais, identificando como o **Viés de Confirmação** pode comprometer a alocação de ativos mesmo em investidores experientes.
+
+### 🎯 Objetivos:
+*   Analisar os pilares do Suitability: Objetivos, Situação Financeira e Conhecimento.
+*   Comparar a rigidez normativa da CVM com as diretrizes de autorregulação da ANBIMA.
+*   Propor uma visão crítica sobre a transição da análise demográfica para a **Análise de Perfil Comportamental (APCI)**.
+
+---
+
+## 🧪 Metodologia e IA
+Este projeto foi desenvolvido utilizando o **Google NotebookLM** para curadoria e análise de fontes oficiais. 
+
+*   **Fontes Base:** Instruções e Resoluções da CVM, Códigos da ANBIMA e estudos acadêmicos sobre Psicologia Econômica.
+*   **Processamento:** Utilização de *Grounding* para garantir que todas as respostas e insights sejam fundamentados estritamente nos documentos carregados, minimizando alucinações da IA.
+
+---
+
+## 💡 Insights Principais
+- **O Fator Humano:** A regulação atual foca no "quem é" o investidor, mas ignora o "como ele decide" sob estresse.
+- **Diferencial Moderado:** Investidores de perfil moderado apresentam 87% menos chance de manifestar o viés de confirmação em comparação aos conservadores.
+- **Rigor CVM:** O descumprimento do suitability não é apenas falha ética, mas infração grave, especialmente após o **Ofício-Circular 1/2024**.
+
+---
+
 ## 👤 Autor
-**[Seu Nome]**
-- [LinkedIn](link) | [GitHub](link)
+**[Eduarda Lopes Rosa de Athayde]**
+*   LinkedIn: [eduardalopesrosa]
+*   E-mail: [eduarda.lopesrosa@outlook.com]
 
+---
+*Este projeto tem fins educacionais e busca demonstrar habilidades em documentação técnica, análise financeira e uso de ferramentas de IA.*

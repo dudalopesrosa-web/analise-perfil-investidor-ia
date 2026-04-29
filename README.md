@@ -11,6 +11,7 @@ Para facilitar a navegação, este estudo foi dividido em seções específicas:
 1.  [**Glossário Técnico**](./insights/glossario.md): Definições essenciais (API, Suitability, FGC).
 2.  [**Análise Crítica e Comparativa**](./insights/analise-critica.md): O "ponto cego" do suitability e as diferenças entre CVM e ANBIMA.
 3.  [**Flashcards de Estudo**](./prompts/flashcards.md): 10 perguntas avançadas sobre comportamento e alocação de ativos.
+4.  [**Miniguia de Estudo (Entrega Final)**](./MINIGUIA.md)
 
 ---
 

@@ -42,7 +42,7 @@ Este projeto foi desenvolvido utilizando o **Google NotebookLM** para curadoria 
 
 ## 👤 Autor
 **[Eduarda Lopes Rosa de Athayde]**
-*   LinkedIn: [eduardalopesrosa]
+*   LinkedIn: [/eduardalopesrosa]
 *   E-mail: [eduarda.lopesrosa@outlook.com]
 
 ---
